@@ -1,0 +1,55 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white !important;
+    background: -webkit-linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+    padding-top: 2%;
+    font-weight: lighter;
+    color: white;
+    text-align: center !important;
+}
+
+.mainPanel{
+    background: rgba(0, 0, 0, 0.6)
+}
+
+#billingForm{
+    padding: 5%;
+}
+#billingForm input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#mgmtForm{
+    padding: 8%;
+    padding-left:10%;
+}
+#mgmtForm input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#detailsForm{
+    padding: 8%;
+    padding-left:10%;
+}
+#detailsForm input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.billContainer{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 3%;
+}
